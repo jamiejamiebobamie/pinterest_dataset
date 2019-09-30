@@ -21,6 +21,7 @@ import os
 import sys
 import csv
 import multiprocessing
+import tqdm
 from urllib import error
 from urllib import request
 from PIL import Image
@@ -67,7 +68,7 @@ def download_image(key_url):
     except:
         print('Warning: Failed to save image {}'.format(filename))
         return 1
-    
+
     return 0
 
 
@@ -91,4 +92,6 @@ def loader():
 # arg1 : data_file.csv
 # arg2 : output_dir
 if __name__ == '__main__':
+    # /Users/jamesmccrory/Documents/dev/pinterest_dataset/urls_labels.csv
+    # /Users/jamesmccrory/Documents/dev/pinterest_dataset/images
     loader()

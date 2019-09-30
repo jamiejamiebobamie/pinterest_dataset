@@ -1,0 +1,10 @@
+release/
+*.pyc
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# ignore the images folder, which contains 19,000+ copyrighted images used to train the thingy
+images/
