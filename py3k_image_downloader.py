@@ -92,6 +92,6 @@ def loader():
 # arg1 : data_file.csv
 # arg2 : output_dir
 if __name__ == '__main__':
-    # /Users/jamesmccrory/Documents/dev/pinterest_dataset/urls_labels.csv
-    # /Users/jamesmccrory/Documents/dev/pinterest_dataset/images
+    # /Users/jamesmccrory/Documents/dev/pinterest_dataset/FEMALE_urls_labels.csv
+    # /Users/jamesmccrory/Documents/dev/pinterest_dataset/images/male_female
     loader()

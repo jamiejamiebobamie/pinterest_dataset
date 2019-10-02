@@ -5,7 +5,7 @@ import glob
 
 size = 200, 200
 
-images = glob.glob("/Users/jamesmccrory/documents/dev/pinterest_dataset/images/*.jpg")
+images = glob.glob("/Users/jamesmccrory/documents/dev/pinterest_dataset/images/male_female/*.jpg")
 for img in images:
     with open(img, 'rb') as file:
         outfile = os.path.splitext(file.name)[0] + ".png"
